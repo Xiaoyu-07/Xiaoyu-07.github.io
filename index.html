@@ -38,6 +38,17 @@
             font-weight: bold;
         }
 
+        /* 標題 */
+        h2 {
+            color: #3b3b3b;
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            color: #544f4f;
+            margin-top: 1.2rem;
+        }
+
         /* 導覽列 */
         nav {
             margin-bottom: 2rem;
@@ -61,7 +72,8 @@
             padding: 2rem;
             border-radius: 16px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-            text-align: center;
+            text-align: left;
+            line-height: 1.7;
             transition: transform 0.2s ease;
         }
         .section:hover {
@@ -92,13 +104,16 @@
             background: #cbbd96;
         }
 
-        /* Footer */
         footer {
             text-align: center;
             padding: 1.5rem;
             background: #d5c4a1;
             color: #3b3b3b;
             margin-top: 3rem;
+        }
+
+        ul {
+            padding-left: 1.2rem;
         }
     </style>
 </head>
@@ -110,20 +125,96 @@
         <h1>張培宇</h1>
         <nav>
             <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#goals">Goals</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <!-- About 區塊 -->
     <div id="about" class="section">
-        <h2>喵</h2>
-        <a class="btn" href="https://instagram.com/xiychn" target="_blank">Instagram</a>
+        <h2>關於我 About</h2>
+        <p>
+            大家好，我是張培宇，一名對科技、程式開發與創作充滿興趣的學生。
+            我喜歡把腦袋裡的想法做成實際能運作的作品，例如 Unity 小遊戲、
+            網頁、演算法小工具等。資訊領域吸引我的原因是 —— 
+            只要有靈感和技術，任何想法都能變成現實。
+        </p>
+        <p>
+            除了程式，我也是一個喜歡探索生活的人。對遊戲、拍照、迷因文化、
+            前端設計都充滿興趣。未來希望能成為具有創造力、實作力的資訊專業人才。
+        </p>
+    </div>
+
+    <!-- Skills 區塊 -->
+    <div id="skills" class="section">
+        <h2>技能 Skills</h2>
+
+        <h3>程式語言</h3>
+        <ul>
+            <li>C++（物件導向、邏輯、演算法）</li>
+            <li>JavaScript（前端互動、DOM 操作）</li>
+            <li>Python（自動化、小工具）</li>
+        </ul>
+
+        <h3>工具與框架</h3>
+        <ul>
+            <li>Unity（彈幕遊戲、角色機制）</li>
+            <li>Git / GitHub（版本控制、GitHub Pages）</li>
+            <li>HTML / CSS（基礎網頁製作）</li>
+        </ul>
+
+        <h3>興趣領域</h3>
+        <ul>
+            <li>遊戲開發</li>
+            <li>網站前端</li>
+            <li>UI / UX 設計</li>
+            <li>資訊管理 x 資工領域探索</li>
+        </ul>
+    </div>
+
+    <!-- Projects 區塊 -->
+    <div id="projects" class="section">
+        <h2>作品 Projects</h2>
+
+        <h3>Unity 彈幕射擊遊戲（個人專案）</h3>
+        <ul>
+            <li>自製角色移動與攻擊邏輯</li>
+            <li>敵人 AI、彈幕模式、關卡系統</li>
+            <li>UI 與碰撞判定完整設計</li>
+        </ul>
+
+        <h3>個人網站（本網站）</h3>
+        <ul>
+            <li>使用 GitHub Pages 部署</li>
+            <li>自行調整 UI 配色與介面風格</li>
+            <li>支援多頁導覽與個人介紹區塊</li>
+        </ul>
+
+        <h3>練習小工具</h3>
+        <ul>
+            <li>Armstrong 數檢查器（C++）</li>
+            <li>演算法練習：排序、字串、迴圈等</li>
+        </ul>
+    </div>
+
+    <!-- Goals 區塊 -->
+    <div id="goals" class="section">
+        <h2>目標 Goals</h2>
+        <ul>
+            <li>打造更完整的 Unity 遊戲作品</li>
+            <li>提升前端能力：Tailwind、React</li>
+            <li>建立專屬作品集網站 Portfolio</li>
+            <li>累積資訊管理與工程相關技能</li>
+        </ul>
     </div>
 
     <!-- Contact 區塊 -->
     <div id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Instagram: <a href="https://instagram.com/xiychn" target="_blank">@xiychn</a></p>
+        <h2>聯絡方式 Contact</h2>
+        <p>Instagram：<a href="https://instagram.com/xiychn" target="_blank">@xiychn</a></p>
+        <a class="btn" href="https://instagram.com/xiychn" target="_blank">前往 IG</a>
     </div>
 
     <!-- Footer -->
